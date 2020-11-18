@@ -1,0 +1,7 @@
+#nprogress .bar{
+    height:4px;
+}
+
+.nav a:hover {
+    border-radius:0px;
+}
