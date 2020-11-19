@@ -2,7 +2,7 @@ import { withRouter } from 'next/router'
 import { useState, useEffect } from 'react'
 import jwt from 'jsonwebtoken'
 import axios from 'axios'
-import { showSuccessMessage, showErrorMessage } from '../../../helpers/Alerts'
+import { showSuccessMessage, showErrorMessage } from '../../../helpers/alerts'
 import Layout from '../../../components/Layout'
 
 const ActivateAccount = ({ router }) => {

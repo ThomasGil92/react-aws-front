@@ -1,7 +1,7 @@
 import Router, { withRouter } from "next/router";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { showSuccessMessage, showErrorMessage } from "../../../../helpers/Alerts";
+import { showSuccessMessage, showErrorMessage } from "../../../../helpers/alerts";
 import Layout from "../../../../components/Layout";
 import jwt from 'jsonwebtoken'
 

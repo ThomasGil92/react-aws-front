@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { showSuccessMessage, showErrorMessage } from "../../../helpers/Alerts";
+import { showSuccessMessage, showErrorMessage } from "../../../helpers/lerts";
 import Layout from "../../../components/Layout";
 
 const ForgotPassword = () => {
